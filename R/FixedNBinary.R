@@ -12,7 +12,7 @@ if ((props >= 1) || (props <= 0) )
 
 if (length(props) == 2)
 {
-if (sum(props) !=1)
+if ( abs( sum(props) - 1) >= 0.001 )
 	stop("Sorry, the two proportions must sum to one.")
 
 for (i in 1:2)

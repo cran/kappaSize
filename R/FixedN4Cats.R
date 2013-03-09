@@ -7,7 +7,7 @@ if ( (raters != 1) && (raters !=2) && (raters !=3) && (raters != 4) && (raters !
 if (length(props) != 4)
 	stop("Sorry, you must enter the anticipated proportions of each of the four categories.")
 
-if (sum(props) !=1)
+if ( abs( sum(props) - 1) >= 0.001 )
 	stop("Sorry, the three proportions must sum to one.")
 
 for (i in 1:4)
