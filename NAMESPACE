@@ -1,1 +1,33 @@
-exportPattern("^[^\\.]") # Exports all functions not beginning with a period.
+# Exports all functions not beginning with a period
+exportPattern("^[^\\.]") 
+
+#Import other helper functions
+   importFrom("stats", "pchisq", "qchisq")
+
+
+#Register S3
+S3method(print, CI3Cats)
+S3method(print, CI4Cats)
+S3method(print, CI5Cats)
+S3method(print, CIBinary)
+S3method(print, FixedN3Cats)
+S3method(print, FixedN4Cats)
+S3method(print, FixedN5Cats)
+S3method(print, FixedNBinary)
+S3method(print, Power3Cats)
+S3method(print, Power4Cats)
+S3method(print, Power5Cats)
+S3method(print, PowerBinary)
+
+S3method(summary, CI3Cats)
+S3method(summary, CI4Cats)
+S3method(summary, CI5Cats)
+S3method(summary, CIBinary)
+S3method(summary, FixedN3Cats)
+S3method(summary, FixedN4Cats)
+S3method(summary, FixedN5Cats)
+S3method(summary, FixedNBinary)
+S3method(summary, Power3Cats)
+S3method(summary, Power4Cats)
+S3method(summary, Power5Cats)
+S3method(summary, PowerBinary)

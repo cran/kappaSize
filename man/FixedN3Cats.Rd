@@ -41,6 +41,8 @@ typically not required and is not displayed in the summary output.}
 }
 
 \references{
+Rotondi MA, Donner A.  (2012).  A Confidence Interval Approach to Sample Size Estimation for Interobserver Agreement Studies with Multiple Raters and Outcomes.  Journal of Clinical Epidemiology, 65:778-784.
+
 Donner A, Rotondi MA.  (2010).  Sample Size Requirements for Interval Estimation of the Kappa Statistic for Interobserver Agreement Studies with a Binary Outcome and Multiple Raters.  International Journal of Biostatistics 6:31. 
 
 Altaye M, Donner A, Klar N.  (2001). Procedures for Assessing Interobserver Agreement among Multiple Raters.  Biometrics 57:584-588.
@@ -53,7 +55,7 @@ Donner A, Eliasziw M. (1987) Sample size requirements for reliability studies. S
 
 }
 
-\author{Michael Rotondi, \email{mrotondi@uwo.ca}}
+\author{Michael Rotondi, \email{mrotondi@yorku.ca}}
 
 \examples{
 \dontrun{Suppose an investigator would like to determine the expected lower bound for 
